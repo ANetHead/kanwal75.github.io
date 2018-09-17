@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
+	<meta name="description" content="login on items on rent">
+	<meta name="author" content="Kanwaldeep Singh Thakral">
+	<meta name="keywords" content="Items on rent,Rent,Rent Items,login,Login">
+	<meta name="icon" content="untitled.pngs">
+	<style type="text/css">
+	.login{position: fixed;
+		bottom:50%;
+		top: 25%;
+		right: 50%;
+		left:35%;
+		background-color: lightgray;
+		height: 450px;
+		width:450px;
+		padding-left: 10%;}
+		.login h1{
+			color: blue;
+			font-weight: bold;
+		}
+		.login input[type=text],input[type=Password]{padding-top: 8px;
+			padding-bottom: 8px;
+			margin-bottom: 12px;
+			margin-top: 8px;
+			display: block;
+			border:1px solid blue;
+			font-size: 16px;}
+			.login input[type=button]{
+				margin-top: 8px;
+				background-color: violet;
+				position: relative;
+				width:56px;
+				height: 100%;			}
+				.login input[type=checkbox]
+				{
+					margin-top: 12px;
+					margin-bottom: 12px;
+				}
+
+	</style>
+	<title>Login:Items On Rent</title>
+</head>
+<body>
+	<div class="login">
+		<h1>Login</h1>
+		<form method="post">
+			User Name<br><input type="text" name="Username" placeholder="Enter Username">
+			<br>
+			Password
+			<br>
+			<input type="Password" name="Password" placeholder="********" required>
+			<br>
+			<input type="button" name="button" value="Submit">
+			<br>
+			<input type="checkbox" name="checkbox">Remember me
+			<br>
+			<a  id="01" href="Forgotpwd">Forgot Password?</a>
+			<br>
+			<a id="02" href="register.html">Register</a>
+		</form>
+	</div>
+</body>
+</html>
